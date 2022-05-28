@@ -1,0 +1,114 @@
+.img-banner{
+    width: 56vw;
+    box-shadow:0 0 10px 4px #ffffff;
+}
+.card-header{
+    background-color: #FF6500;
+    color: white;
+    width: 57vw;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-header > h1 {
+    padding: 10px;
+}
+.box-header-temp{
+    display: flex;
+}
+.box-header-temp > h1{
+    margin: 5px;
+}
+
+.card-main{
+    width: 56.5vw;
+    background-color: transparent;
+    display: flex;
+    background-color: rgb(224, 224, 224);
+}
+
+.content{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    background-color: white;
+    width: 220px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:  0.09s;
+}
+
+.product:hover{
+    transform: scale(1.03);
+    background-color: rgb(209, 208, 208);
+}
+
+.description-product{
+    padding: 5px;
+    font-size: 12px;
+    
+}
+
+.value-product{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.old-price-product{
+    display: flex;
+    text-decoration: line-through;
+    font-weight: bold;
+    color: #FF5101;
+}
+
+.price-product{
+    display: flex;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.buy-product{
+    background-color: #FF5101;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.png-buy{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.buy-product > h1{
+    margin-right: 5px;
+}
+
+.buy-product:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: #b13901;
+}
+
