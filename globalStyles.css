@@ -58,9 +58,6 @@ button{
     align-items: center;
 }
 
-button:hover {
-    box-shadow: 0 0 10px 4px #bbbbbb;
-}
 
 input{
     margin: 5px;
