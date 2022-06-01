@@ -1,0 +1,51 @@
+.card-main{
+    width: 56.5vw;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(224, 224, 224);
+}
+.card-login{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.box-login{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-login> input{
+    border: 1px solid rgb(128, 128, 128);
+    height: 40px;
+    width: 35vh;
+    font-size: 25px;
+}
+.box-login{
+    margin-top: 10px;
+    border-left: 5px solid #FF5101;
+    border-right: 5px solid #FF5101;
+}
+
+.btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-forgot-passowrd{
+    text-decoration: underline;
+    color: #FF6500;
+}
+
+
+
+
