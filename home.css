@@ -21,8 +21,14 @@
 }
 .box-header-temp{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-header-temp > h1{
+    margin: 5px;
+}
+.cronometro-propotion{
+    height: 25px;
     margin: 5px;
 }
 

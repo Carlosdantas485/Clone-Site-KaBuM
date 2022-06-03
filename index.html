@@ -111,7 +111,7 @@
             <h1>Teste</h1>
             <div class="box-header-temp">
                 <h1>Promocao termina em</h1>
-                <h1>O</h1>
+                <img class="cronometro-propotion" src="./cronometro.png" alt="logo">
                 <div id="txt"></div>
             </div>
         </div>
@@ -377,33 +377,40 @@
     </div>
 
     <div class="chat-bot">
-        <div class="header-char-bot">
+        <button onclick="myFunction()">
             <img class="img-menu-bar-bot" src="./menu-bar.png" alt="logo">
-            <div class="box-char-bot">
-                <h1>Anna</h1>
-                <img class="img-char-bot" src="./login-people.png" alt="logo">
+        </button>
+        <div id="chatbot" >
+            <div class="header-char-bot">
+            
+                <div class="box-char-bot">
+                    <h1>Anna</h1>
+                    <img class="img-char-bot" src="./login-people.png" alt="logo">
+                </div>
+            </div>
+    
+            <div class="card-content-bot">
+                <div class="response-mesage-user response-chat">
+                    <h2>OLá</h2>
+                </div>
+                <div class="response-mesage-bot response-chat">
+                    <h2>Olá, como posso ajudar ?</h2>
+                </div>
+                <div class="response-mesage-user response-chat">
+                    <h2>Gostaria de saber/entender como compro nesta loja !</h2>
+                </div>
+                <div class="response-mesage-bot response-chat">
+                    <h2>Digitando...</h2>
+                </div>
+                <div class="input-text-chat-bot">
+                    <input type="text" name="" id="input-chat-bot"  color="white" placeholder="Posso te ajudar ?">
+                    <button class="btn-send-chat-bot">ENVIAR</button>
+                </div>
             </div>
         </div>
 
-        <div class="card-content-bot">
-            <div class="response-mesage-user response-chat">
-                <h2>OLá</h2>
-            </div>
-            <div class="response-mesage-bot response-chat">
-                <h2>Olá, como posso ajudar ?</h2>
-            </div>
-            <div class="response-mesage-user response-chat">
-                <h2>Gostaria de saber/entender como compro nesta loja !</h2>
-            </div>
-            <div class="response-mesage-bot response-chat">
-                <h2>Digitando...</h2>
-            </div>
-            <div class="input-text-chat-bot">
-                <input type="text" name="" id="input-chat-bot"  color="white" placeholder="Posso te ajudar ?">
-                <button class="btn-send-chat-bot">ENVIAR</button>
-            </div>
         </div>
-    </div>
+       
     
 </body>
 
@@ -426,5 +433,14 @@
             i="0" + i;
         }
         return i;
+    }
+
+    function myFunction() {
+        var x = document.getElementById("chatbot");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
     }
 </script>

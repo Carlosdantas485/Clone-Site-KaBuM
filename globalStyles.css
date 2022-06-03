@@ -50,7 +50,7 @@ table {
 button{
     background-color: transparent;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 5px;
     outline: 0;
     border: none;
@@ -113,7 +113,6 @@ header{
 }
 
 .search-box-header{
-    
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -240,6 +239,7 @@ div.receive-offers{
 #register-e-mail,#register-name{
     width: 300px;
     font-size: 20px;
+    margin: 10px;
 }
 
 .btn-receive-offers{
@@ -298,7 +298,6 @@ div.sponsorships{
 
 /*====================================*/
 .chat-bot{
-    width: 250px;
     position: relative;
     position: fixed;
     bottom: 10px;
