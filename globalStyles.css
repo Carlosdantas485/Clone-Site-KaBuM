@@ -56,11 +56,11 @@ button{
     border: none;
     cursor: pointer;
     align-items: center;
+    margin: 0px;
 }
 
 
 input{
-    margin: 5px;
     height: 40px;
     width: 200px;
     justify-content: center;
@@ -69,7 +69,6 @@ input{
     outline: 0;
     padding: 0px  5px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
     font-size: 15px;
     cursor: pointer;
 }
@@ -110,26 +109,40 @@ header{
 
 .img-logo{
     width: 100px;
+    margin:0px 20px;
 }
 
 .search-box-header{
+    
     margin: 5px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 .search-input-text{
     font-size: 15px;
+    padding: 5px;
     width: 300px;
-    height: 25px;
+    height: 20px;
+}
+
+.search-box-header>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
 }
 
 .lupa{
-    width: 25px;
+    height: 70px;
+}
+
+#search{
+    padding: 0px;
+    position: relative;
+    right: 30px;
 }
 
 .header-register{

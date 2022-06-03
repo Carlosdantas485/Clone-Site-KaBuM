@@ -14,7 +14,7 @@
     <title>KaBuM! | Maior E-commerce de tecnlogia e Games da america latina</title>
 </head>
 
-<body>
+<body onload="startTime()">
     <div class="bg"></div>
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
@@ -29,8 +29,8 @@
 
             <div class="search-box-header">
                 <input class="search-input-text" type="text" placeholder="O que você está buscando ?">
-                <button>
-                    <img class="lupa" src="./login-people.png" alt="logo">
+                <button id="search">
+                    <img  class="lupa" src="./btn_busca.png" alt="logo">
                 </button>
             </div>
             <div class="header-register">
@@ -112,7 +112,7 @@
             <div class="box-header-temp">
                 <h1>Promocao termina em</h1>
                 <h1>O</h1>
-                <h1>temporizador 12:00:00</h1>
+                <div id="txt"></div>
             </div>
         </div>
         
@@ -408,3 +408,23 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+    function startTime(){
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        // adicione um zero na frente de números<10
+        m=checkTime(m);
+        s=checkTime(s);
+        document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+        t=setTimeout('startTime()',500);
+    }
+    function checkTime(i){
+        if (i<10){
+            i="0" + i;
+        }
+        return i;
+    }
+</script>
