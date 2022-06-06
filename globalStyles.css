@@ -109,7 +109,7 @@ header{
 }
 
 .img-logo{
-    width: 130px;
+    width: 150px;
     margin:0px 20px;
 }
 
@@ -123,8 +123,8 @@ header{
 
 .search-input-text{
     font-size: 15px;
-    padding: 5px;
-    width: 300px;
+    padding: 10px;
+    width: 500px;
     height: 20px;
 }
 
@@ -154,7 +154,11 @@ header{
 
 .img-login-people{
     height: 35px;
-    margin: 20px;
+    margin: 20px 5px;
+    padding: 2px;
+    border-radius: 50px;
+    border: solid 3px #ffffff;
+    background-color: transparent;
 }
 
 .btn-header-register{
@@ -177,7 +181,7 @@ header{
     margin: 10px;
 }
 
-/*====================================*/
+/*================ NAVEGATION ====================*/
 
 div.navegation{
     background-color: #FF6500;
@@ -206,16 +210,14 @@ div.navegation{
     font-weight: bold;
 }
 
-/*====================================*/
+/*================ MAIN ====================*/
 
 main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
     background-repeat: repeat-y;
     background-size: 100vw;
-    padding-bottom: 20px;
 }
 
 /*====================================*/
