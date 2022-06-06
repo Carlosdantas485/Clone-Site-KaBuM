@@ -1,0 +1,40 @@
+.card-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app{
+    background-color: #024b86;
+    padding: 20px;
+    color: white;
+}
+
+.form{
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.form>input{
+    height: 30px;
+}
+
+.append-list{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-add{
+    background-color:greenyellow;
+    color: black;
+    height: 30px;
+}
+
+#app > ul> li> a{
+    margin-left: 5px;
+    color: red;
+}

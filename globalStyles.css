@@ -90,6 +90,9 @@ header{
     color: white;
     font-size: 12px;
 }
+ a{
+    color: white;
+ }
 
 .card-options-header{
     display: flex;
