@@ -73,9 +73,7 @@ input{
     cursor: pointer;
 }
 
-h1{
-    font-size: 12px;
-}
+
 
 /*====================================*/
 
@@ -111,7 +109,7 @@ header{
 }
 
 .img-logo{
-    width: 100px;
+    width: 130px;
     margin:0px 20px;
 }
 
@@ -412,7 +410,7 @@ div.sponsorships{
 }
 
 
-
+/*================================================*/
 
 .loader  {
     animation: rotate 3s infinite;  
@@ -489,19 +487,15 @@ div.sponsorships{
 
 
 
-/*=================================*/
+/*=============BACKGROUND ANIMADO====================*/
 
-html {
-    height:100%;
-  }
-  
-  body {
+body {
     margin:0;
-  }
-  
-  .bg {
+}
+
+.bg {
     animation:slide 10s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #003A6A 50%, #0060B1 50%);
+    background-image: linear-gradient(-60deg, #D32232 50%, #b10c00 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -509,24 +503,22 @@ html {
     right:-50%;
     top:0;
     z-index:-1;
-  }
-  
-  .bg2 {
+}
+
+.bg2 {
     animation-direction:alternate-reverse;
     animation-duration:20s;
-  }
-  
-  .bg3 {
+}
+
+.bg3 {
     animation-duration:30s;
-  }
-  
-  
- 
-  @keyframes slide {
+}
+
+@keyframes slide {
     0% {
-      transform:translateX(-25%);
+        transform:translateX(-25%);
     }
     100% {
-      transform:translateX(25%);
+        transform:translateX(25%);
     }
-  }
+}

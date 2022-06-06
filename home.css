@@ -1,11 +1,13 @@
 .img-banner{
-    width: 56vw;
+    width: 70vw;
     box-shadow:0 0 10px 4px #ffffff;
 }
+
 .card-header{
     background-color: #FF6500;
     color: white;
-    width: 57vw;
+    width: 70vw;
+    height: 60PX;
     margin-top: 10px;
 
     display: flex;
@@ -19,14 +21,17 @@
 .card-header > h1 {
     padding: 10px;
 }
+
 .box-header-temp{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .box-header-temp > h1{
     margin: 5px;
 }
+
 .cronometro-propotion{
     height: 25px;
     margin: 5px;
@@ -37,13 +42,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 56.5vw;
+    width: 70vw;
     background-color: transparent;
     display: flex;
     background-color: #FAFAFB;
 }
 
-    
 .box-mini-banner{
     display: flex;
     align-items: center;
@@ -54,7 +58,7 @@
 
 .img-mini-banner{
     margin: 10px;
-    height: 150px;
+    height: 200px;
 }
 
 .content{
@@ -66,7 +70,8 @@
 
 .product{
     background-color: white;
-    width: 220px;
+    width: 250px;
+    height: 300px;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -82,9 +87,11 @@
     background-color: rgb(209, 208, 208);
 }
 
+
+
 .description-product{
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
     
 }
 
@@ -135,7 +142,7 @@
     background-color: #b13901;
 }
 
-@media (max-width: 750px){
+@media (max-width: 820px){
 
     .img-banner{
         width: 100vw;
@@ -151,7 +158,6 @@
 
     .img-mini-banner{
         margin: 0;
-        width: 100vw;
     }
     
 }
