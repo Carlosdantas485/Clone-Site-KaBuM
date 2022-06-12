@@ -1,0 +1,172 @@
+
+.component-main{
+    margin: 10px;
+}
+
+.img-banner{
+    width: 70vw;
+}
+
+.card-header{
+    background-color: #FF6500;
+    color: white;
+    width: 70vw;
+    height: 60PX;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-header > h1 {
+    padding: 10px;
+}
+
+.box-header-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header-temp > h1{
+    margin: 5px;
+}
+
+.cronometro-propotion{
+    height: 25px;
+    margin: 5px;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    background-color: transparent;
+    display: flex;
+    background-color: #FAFAFB;
+}
+
+.box-mini-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.img-mini-banner{
+    margin: 10px;
+    height: 200px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:  0.09s;
+}
+
+.product:hover{
+    transform: scale(1.03);
+    background-color: rgb(209, 208, 208);
+}
+
+
+
+.description-product{
+    padding: 5px;
+    font-size: 15px;
+    
+}
+
+.value-product{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.old-price-product{
+    display: flex;
+    text-decoration: line-through;
+    font-weight: bold;
+    color: #FF5101;
+}
+
+.price-product{
+    display: flex;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.buy-product{
+    background-color: #FF5101;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.png-buy{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.buy-product > h1{
+    margin-right: 5px;
+}
+
+.buy-product:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: #b13901;
+}
+
+@media (max-width: 820px){
+
+    .img-banner{
+        width: 100vw;
+    }
+
+    .card-header{
+        width: 100vw;
+    }
+
+    .card-main{
+        width: 100vw;
+    }
+
+    .img-mini-banner{
+        margin: 0;
+    }
+    
+}
+
+
+
+
+
