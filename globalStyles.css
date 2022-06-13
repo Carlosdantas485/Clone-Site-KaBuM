@@ -293,7 +293,8 @@ main{
 
 
 .banner-downlaod-app{
-margin: 10px;
+    margin: 10px;
+    width: 70vw;
 }
 /*====================================*/
 div.receive-offers{
@@ -431,7 +432,6 @@ div.sponsorships{
     margin-top: 10px;
     margin: 10px 10px 0 10px;
     box-shadow: 0 0 10px 4px #9c9c9c;
-
 }
 
 .response-mesage-bot{
