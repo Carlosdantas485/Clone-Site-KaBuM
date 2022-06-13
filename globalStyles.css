@@ -294,8 +294,9 @@ main{
 
 .banner-downlaod-app{
     margin: 10px;
-    width: 70vw;
+    width: 100%;
 }
+
 /*====================================*/
 div.receive-offers{
     background-color: #003A6A;
